@@ -4,7 +4,7 @@ class Class(models.Model):
     cla_ss = models.IntegerField(unique=True)
 
     def __str__(self):
-        return self.cla_ss
+        return str(self.cla_ss)
 
 class Teacher(models.Model):
     full_name = models.CharField(max_length=250)

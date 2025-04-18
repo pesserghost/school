@@ -1,4 +1,3 @@
-
 from rest_framework.viewsets import ModelViewSet
 from .models import Class, Teacher, Student
 from .serializers import ClassSerializer, TeacherSerializer, StudentSerializer
